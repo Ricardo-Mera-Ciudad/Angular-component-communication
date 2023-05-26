@@ -20,11 +20,12 @@ export class ChildComponent {
   emitHijo() {
     this.outputHijo.emit(this.outputName);
     this.recibirNombre = '';
-    this.serviceButton.nombreHijo = '';
+    this.serviceButton.nombrePadre = '';
   }
 
   childService(){
     this.serviceButton.nombrePadre = 'Child Service';
     this.serviceButton.nombreHijo = '';
+    this.recibirNombre = '';
   }
 }

@@ -18,7 +18,7 @@ export class ParentComponent {
     
     this.childName = 'Parent Input';
     this.nombre = '';
-    this.serviceButton.nombrePadre = '';
+    this.serviceButton.nombreHijo = '';
     
   }
   
