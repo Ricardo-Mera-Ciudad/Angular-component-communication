@@ -1,0 +1,15 @@
+<div class="border border-primary m-3 p-3">
+    <div>
+      <h2>Child component</h2>
+    </div>
+    <div>
+      <h3> {{recibirNombre}} </h3>
+      <h3> {{serviceButton.nombreHijo}} </h3>
+    </div>
+    <div>
+        <button class="btn btn-primary m-3" (click)="emitHijo()">Output</button>
+        <button class="btn btn-primary m-3" (click)="childService()">Service</button>
+        <button class="btn btn-primary m-3">Observable</button>
+    </div>
+  </div>
+  
